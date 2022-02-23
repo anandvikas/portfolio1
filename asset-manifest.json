@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio1/static/css/main.bdba1a9c.css",
+    "main.js": "/portfolio1/static/js/main.1313541d.js",
+    "static/media/background.jpg": "/portfolio1/static/media/background.47cb5f54162f468b0262.jpg",
+    "static/media/Vikas_resume_fed.pdf": "/portfolio1/static/media/Vikas_resume_fed.b07b340eacdbd6944a38.pdf",
+    "static/media/foodcart1.JPG": "/portfolio1/static/media/foodcart1.502cbb302354eb77325c.JPG",
+    "static/media/covidinfo1.JPG": "/portfolio1/static/media/covidinfo1.ed47f6394dc65aac2b4a.JPG",
+    "index.html": "/portfolio1/index.html",
+    "main.bdba1a9c.css.map": "/portfolio1/static/css/main.bdba1a9c.css.map",
+    "main.1313541d.js.map": "/portfolio1/static/js/main.1313541d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdba1a9c.css",
+    "static/js/main.1313541d.js"
+  ]
+}
