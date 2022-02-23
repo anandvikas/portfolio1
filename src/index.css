@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* border: .25px solid red; */
+}
+
+:root {
+  --funit: 0.1vw;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --funit: 0.125vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --funit: 0.15vw;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    --funit: 0.2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --funit: 0.3vw;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --funit: 0.4vw;
+  }
+}
+
+.wholePage {
+  height: fit-content;
+  width: fit-content;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
