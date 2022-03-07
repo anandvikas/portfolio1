@@ -1,5 +1,8 @@
 import foodcart1 from "../document/foodcart/foodcart1.JPG"
 import covidinfo1 from '../document/covidinfo/covidinfo1.JPG'
+import cosmoRace1 from '../document/cosmoRace/cosmoRace1.JPG'
+import typespeed1 from '../document/typeSpeed/typespeed1.JPG'
+import fake3dimg1 from '../document/fake3Dimg/fake3dimg1.JPG'
 
 const Project = () => {
     return (
@@ -44,26 +47,43 @@ const Project = () => {
                     <div className="glCardSpace">
                         <div className="glCard">
                             <div className="glCardImgDiv">
-                                <img src={foodcart1} />
+                                <img src={cosmoRace1} />
                             </div>
                             <div className="glCardTextDiv">
-                                <h3>Food Cart</h3>
-                                <p>E-commerce website of a restaurent, where client can order food of their choice. There are various filter options such as. By catagory, By release date, By popularity etc.</p>
-                                <a href="https://anandvikas.github.io/foodkart/" target='_blank'>Site</a>
-                                <a href="https://github.com/anandvikas/foodkart.git" target='_blank'>Code</a>
+                                <h3>cosmoRace</h3>
+                                <p>A simple game created using HTML, CSS, JavaScript. Player can use arrow keys to move the space craft in space.</p>
+                                <a href="https://anandvikas.github.io/cosmoRace1/" target='_blank'>Site</a>
+                                <a href="https://github.com/anandvikas/cosmoRace1.git" target='_blank'>Code</a>
                             </div>
                         </div>
                     </div>
-                    <div className="glCardSpace">
-                        <div className="glCard">
-                            <div className="glCardImgDiv">
-                                <img src={foodcart1} />
+                </div>
+            </div>
+            {/* MINI PROJECTS ======================================================================= */}
+            <div className="mini">
+                <h2 className="miniTitle">Mini Projects</h2>
+                <div className="miniList">
+                    <div className="mlCardSpace">
+                        <div className="mlCard">
+                            <div className="mlCardImgDiv">
+                                <img src={typespeed1} />
                             </div>
-                            <div className="glCardTextDiv">
-                                <h3>Food Cart</h3>
-                                <p>E-commerce website of a restaurent, where client can order food of their choice. There are various filter options such as. By catagory, By release date, By popularity etc.</p>
-                                <a href="https://anandvikas.github.io/foodkart/" target='_blank'>Site</a>
-                                <a href="https://github.com/anandvikas/foodkart.git" target='_blank'>Code</a>
+                            <div className="mlCardTextDiv">
+                                <h3>Typing speed tets</h3>
+                                <p>Test your typing speed and see results (words per minute, accuracy, errors)</p>
+                                <a href="https://codepen.io/anandvikas/pen/yLPreaE?editors=0110" target='_blank'>Site and code</a>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mlCardSpace">
+                        <div className="mlCard">
+                            <div className="mlCardImgDiv">
+                                <img src={fake3dimg1} />
+                            </div>
+                            <div className="mlCardTextDiv">
+                                <h3>Fake 3D Image</h3>
+                                <p>Fake 3D Image , tilts on mouse hover</p>
+                                <a href="https://codepen.io/anandvikas/pen/yLPQBVo" target='_blank'>Site and code</a>                                
                             </div>
                         </div>
                     </div>

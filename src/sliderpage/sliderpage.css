@@ -221,11 +221,73 @@
     background-color: rgb(255, 255, 255);
 }
 
+/* mini ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.mini{
+    margin-top: calc(var(--funit)*20);
+    border-left: calc(var(--funit)*5) solid rgba(88, 68, 0, 0.6);
+}
+.miniTitle{
+    font-size: calc(var(--funit)*10);
+    background-color: rgba(88, 68, 0, 0.6);
+    color: white;
+    padding: calc(var(--funit)*10) calc(var(--funit)*20);    
+
+    position: sticky;
+    top: 0px;
+}
+.miniList {   
+    display: flex;
+    flex-direction: column;
+}
+
+.mlCardSpace {
+    padding: calc(var(--funit)*10);
+    margin: calc(var(--funit)*10) 0px;
+    border-bottom: calc(var(--funit)*2) solid rgba(88, 68, 0, 0.6);
+}
+
+.mlCard {
+    width: 100%;
+    display: flex;
+}
+
+.mlCardImgDiv {
+    flex: 40%;
+}
+
+.mlCardImgDiv>img {
+    width: 100%;
+}
+
+.mlCardTextDiv {
+    flex: 60%;
+    padding: 0px calc(var(--funit)*20);
+}
+.mlCardTextDiv>h3{
+    font-size: calc(var(--funit)*15);
+}
+.mlCardTextDiv>p{
+    margin: calc(var(--funit)*10) 0px;
+    font-size: calc(var(--funit)*10);
+}
+.mlCardTextDiv>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.712);
+    margin: calc(var(--funit)*10) calc(var(--funit)*5);
+    padding: calc(var(--funit)*5) calc(var(--funit)*20);
+    font-size: calc(var(--funit)*8);
+}
+.mlCardTextDiv>a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
 @media (max-width: 600px) {
-    .wlCard, .glCard{
+    .wlCard, .glCard, .mlCard{
         flex-direction: column;
     }
-    .wlCardTextDiv, .glCardTextDiv {        
+    .wlCardTextDiv, .glCardTextDiv, .mlCardTextDiv {        
         padding: 0px calc(var(--funit)*2);
     }
 }
