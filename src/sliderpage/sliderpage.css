@@ -1,7 +1,9 @@
 .rpcDiv {
-    background-color: #b1b1b1e7;
+    /* background-color: #b1b1b1e7; */
+    background-color: white;
+    /* border: 5px solid #62757f; */
     padding: calc(var(--funit)*10) calc(var(--funit)*20);
-
+    /* box-shadow: 0px 0px 10px 1px #62757f; */
     /* min-height: fit-content; */
     height: 100vh;
     width: 80vw;
@@ -66,6 +68,11 @@
 }
 
 /* CONTACT HOLDERS ----------------------------------------------- */
+.contactDiv {
+    background-color: #62757f;
+    color: white;
+}
+
 .contactHolder {
     flex: 92%;
     display: flex;
@@ -79,17 +86,21 @@
     text-align: center;
 }
 
-.contactLinks {
+.contactLinksC {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: calc(var(--funit)*10);
 }
 
-.contactLinks>a {
-    color: black;
+.contactLinksC>a {
+    color: white;
     margin: calc(var(--funit)*10);
     text-decoration: none;
+}
+
+.contactLinksC>a>i {
+    color: white;
 }
 
 /* PROJECT HOLDERS ----------------------------------------------- */
@@ -97,21 +108,24 @@
     flex: 92%;
     overflow: auto;
 }
+
 /* websites ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
-.websites{
+.websites {
     margin-top: calc(var(--funit)*20);
-    border-left: calc(var(--funit)*5) solid rgba(13, 0, 71, 0.6);
+    border-left: calc(var(--funit)*5) solid #62757f;
 }
-.websitesTitle{
+
+.websitesTitle {
     font-size: calc(var(--funit)*10);
-    background-color: rgb(13, 0, 71, 0.6);
+    background-color: #62757f;
     color: white;
-    padding: calc(var(--funit)*10) calc(var(--funit)*20);    
+    padding: calc(var(--funit)*10) calc(var(--funit)*20);
 
     position: sticky;
     top: 0px;
 }
-.websitesList {   
+
+.websitesList {
     display: flex;
     flex-direction: column;
 }
@@ -119,7 +133,7 @@
 .wlCardSpace {
     padding: calc(var(--funit)*10);
     margin: calc(var(--funit)*10) 0px;
-    border-bottom: calc(var(--funit)*2) solid rgba(13, 0, 71, 0.6);
+    border-bottom: calc(var(--funit)*2) solid #62757f;
 }
 
 .wlCard {
@@ -139,41 +153,47 @@
     flex: 60%;
     padding: 0px calc(var(--funit)*20);
 }
-.wlCardTextDiv>h3{
+
+.wlCardTextDiv>h3 {
     font-size: calc(var(--funit)*15);
 }
-.wlCardTextDiv>p{
+
+.wlCardTextDiv>p {
     margin: calc(var(--funit)*10) 0px;
     font-size: calc(var(--funit)*10);
 }
-.wlCardTextDiv>a{
+
+.wlCardTextDiv>a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: #90a4ae;
     margin: calc(var(--funit)*10) calc(var(--funit)*5);
     padding: calc(var(--funit)*5) calc(var(--funit)*20);
     font-size: calc(var(--funit)*8);
 }
-.wlCardTextDiv>a:hover{
-    background-color: rgb(255, 255, 255);
+
+.wlCardTextDiv>a:hover {
+    background-color: #62757f;
 }
 
 /* games ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
-.games{
+.games {
     margin-top: calc(var(--funit)*20);
-    border-left: calc(var(--funit)*5) solid rgba(0, 39, 0, 0.6);
+    border-left: calc(var(--funit)*5) solid #62757f;
 }
-.gamesTitle{
+
+.gamesTitle {
     font-size: calc(var(--funit)*10);
-    background-color: rgb(0, 39, 0, 0.6);
+    background-color: #62757f;
     color: white;
-    padding: calc(var(--funit)*10) calc(var(--funit)*20);    
+    padding: calc(var(--funit)*10) calc(var(--funit)*20);
 
     position: sticky;
     top: 0px;
 }
-.gamesList {   
+
+.gamesList {
     display: flex;
     flex-direction: column;
 }
@@ -181,7 +201,7 @@
 .glCardSpace {
     padding: calc(var(--funit)*10);
     margin: calc(var(--funit)*10) 0px;
-    border-bottom: calc(var(--funit)*2) solid rgba(0, 39, 0, 0.6);
+    border-bottom: calc(var(--funit)*2) solid #62757f;
 }
 
 .glCard {
@@ -201,41 +221,47 @@
     flex: 60%;
     padding: 0px calc(var(--funit)*20);
 }
-.glCardTextDiv>h3{
+
+.glCardTextDiv>h3 {
     font-size: calc(var(--funit)*15);
 }
-.glCardTextDiv>p{
+
+.glCardTextDiv>p {
     margin: calc(var(--funit)*10) 0px;
     font-size: calc(var(--funit)*10);
 }
-.glCardTextDiv>a{
+
+.glCardTextDiv>a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: #90a4ae;
     margin: calc(var(--funit)*10) calc(var(--funit)*5);
     padding: calc(var(--funit)*5) calc(var(--funit)*20);
     font-size: calc(var(--funit)*8);
 }
-.glCardTextDiv>a:hover{
-    background-color: rgb(255, 255, 255);
+
+.glCardTextDiv>a:hover {
+    background-color: #62757f;
 }
 
 /* mini ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
-.mini{
+.mini {
     margin-top: calc(var(--funit)*20);
-    border-left: calc(var(--funit)*5) solid rgba(88, 68, 0, 0.6);
+    border-left: calc(var(--funit)*5) solid #62757f;
 }
-.miniTitle{
+
+.miniTitle {
     font-size: calc(var(--funit)*10);
-    background-color: rgba(88, 68, 0, 0.6);
+    background-color: #62757f;
     color: white;
-    padding: calc(var(--funit)*10) calc(var(--funit)*20);    
+    padding: calc(var(--funit)*10) calc(var(--funit)*20);
 
     position: sticky;
     top: 0px;
 }
-.miniList {   
+
+.miniList {
     display: flex;
     flex-direction: column;
 }
@@ -243,7 +269,7 @@
 .mlCardSpace {
     padding: calc(var(--funit)*10);
     margin: calc(var(--funit)*10) 0px;
-    border-bottom: calc(var(--funit)*2) solid rgba(88, 68, 0, 0.6);
+    border-bottom: calc(var(--funit)*2) solid #62757f;
 }
 
 .mlCard {
@@ -263,42 +289,59 @@
     flex: 60%;
     padding: 0px calc(var(--funit)*20);
 }
-.mlCardTextDiv>h3{
+
+.mlCardTextDiv>h3 {
     font-size: calc(var(--funit)*15);
 }
-.mlCardTextDiv>p{
+
+.mlCardTextDiv>p {
     margin: calc(var(--funit)*10) 0px;
     font-size: calc(var(--funit)*10);
 }
-.mlCardTextDiv>a{
+
+.mlCardTextDiv>a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: #90a4ae;
     margin: calc(var(--funit)*10) calc(var(--funit)*5);
     padding: calc(var(--funit)*5) calc(var(--funit)*20);
     font-size: calc(var(--funit)*8);
 }
-.mlCardTextDiv>a:hover{
-    background-color: rgb(255, 255, 255);
+
+.mlCardTextDiv>a:hover {
+    background-color: #62757f;
 }
 
 @media (max-width: 600px) {
-    .wlCard, .glCard, .mlCard{
+    .wlCard, .glCard, .mlCard {
         flex-direction: column;
     }
-    .wlCardTextDiv, .glCardTextDiv, .mlCardTextDiv {        
+
+    .wlCardTextDiv, .glCardTextDiv, .mlCardTextDiv {
         padding: 0px calc(var(--funit)*2);
     }
 }
+
 @media (max-width: 850px) {
     .rpcDiv {
-        background-color: #b1b1b1e7;
         position: static;
         width: 100%;
         height: fit-content;
     }
+
     .closeButton {
         display: none;
+    }
+
+    .textANDcancel {
+        border-left: 5px solid #62757f;
+        padding-left: 10px;
+        /* background-color: #c1d5e0; */
+    }
+
+    .gc {
+        padding: 0%;
+        justify-content: center;
     }
 }

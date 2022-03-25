@@ -14,16 +14,17 @@
 .sec1 {
   flex: 50%;
   display: flex;
-  background-color: #b1b1b17c;
+  /* background-color: #b1b1b17c; */
+  background-color: #90a4ae;
   min-height: 100vh;
   height: fit-content;
   justify-content: center;
   align-items: center;
 }
 
-.sec1:hover {
-  background-color: #c7c7c7a6;
-}
+/* .sec1:hover {
+  background-color: #aec4c7;
+} */
 
 .intro {
   /* border: 1px solid red; */
@@ -47,23 +48,36 @@
   font-size: calc(var(--funit)*20);
   margin: calc(var(--funit)*15);
 }
+.contactLinksM {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: calc(var(--funit)*10);
+}
 
+.contactLinksM>a {
+  color: black;    
+  margin: calc(var(--funit)*10);
+  text-decoration: none;
+}
 /* SECTION 2 ----------------------------------------------------------------  */
 .sec2 {
   flex: 50%;
   display: flex;
   flex-direction: column;
-  background-color: #b1b1b17c;
-  min-height: 100vh;
-  height: fit-content;
+  /* background-color: #b1b1b17c; */
+  background-color: white;
+  /* min-height: 100vh;
+  height: fit-content; */
+  height: 100vh;
 
   align-items: center;
   justify-content: space-evenly;
 }
 
-.sec2:hover {
-  background-color: #c7c7c7a6;
-}
+/* .sec2:hover {
+  background-color: #aec4c7;
+} */
 
 /* SKILLS ----------------------------------------------------------------------- */
 .skills {
@@ -117,6 +131,7 @@
 
 .tabsCon>button {
   /* border: 1px solid red; */
+  background-color: #90a4ae;
   font-size: calc(var(--funit)*15);
   padding: calc(var(--funit)*7) calc(var(--funit)*10);
   margin: calc(var(--funit)*10);
@@ -127,7 +142,8 @@
 }
 
 .tabsCon>button:hover {
-  box-shadow: calc(var(--funit)*2) calc(var(--funit)*2) calc(var(--funit)*20) calc(var(--funit)*5) rgb(124, 124, 124);
+  background-color: #62757f;
+  /* box-shadow: calc(var(--funit)*2) calc(var(--funit)*2) calc(var(--funit)*20) calc(var(--funit)*5) rgb(124, 124, 124); */
 }
 
 @media (max-width: 850px) {
@@ -139,9 +155,14 @@
     display: none;
   }
 
-  .sec1, .sec2 {
-    background-color: #c7c7c7a6;
+  .sec1{
+    background-color: #90a4ae;
     min-height: fit-content;
     height: fit-content;
   }
+  .sec2{
+    background-color: white;
+    min-height: fit-content;
+    height: fit-content;
+  } 
 }

@@ -13,9 +13,11 @@ const MainPage = () => {
         var rpc = document.getElementsByClassName('rpcDiv')
         for (let i = 0; i < rpc.length; i++) {
             rpc[i].style.left = '-80vw'
+            rpc[i].style.boxShadow = 'none'
         }
 
         document.getElementById(div).style.left = '0px'
+        document.getElementById(div).style.boxShadow = '0px 0px 10px 1px #62757f'
     }
 
     return (
@@ -25,9 +27,9 @@ const MainPage = () => {
                     <p id="sec1P">hello, I am</p>
                     <h1>Vikas Anand</h1>
                     <h2>Front end developer</h2>
-                    <div className="contactLinks">
+                    <div className="contactLinksM">
                         <a href="https://www.linkedin.com/in/vikas-anand-2821b381/" target="_blank"><i className="fab fa-linkedin-in"></i><br />LinkedIn</a>
-                        <a href="https://www.linkedin.com/in/vikas-anand-2821b381/" target="_blank"><i className="fab fa-github"></i><br />GitHub</a>
+                        <a href="https://github.com/anandvikas" target="_blank"><i className="fab fa-github"></i><br />GitHub</a>
                     </div>
                 </div>
             </div>

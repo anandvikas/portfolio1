@@ -1,4 +1,4 @@
-import resume from '../document/Vikas_resume_fed.pdf'
+import resume from '../assets/docs/resumeVikas.pdf'
 import './sliderpage.css'
 
 import Project from './Projects'
@@ -31,7 +31,7 @@ const Sliderpage = () => {
                     <button className='closeButton' onClick={close}><i class="far fa-times-circle"></i></button>
                 </div>
                 <div className='resumeHolder'>
-                    <embed src={resume} type="application/pdf" />
+                    <embed src={resume} type="application/pdf" alt='Resume'/>
                     <a href={resume} download="Vikas_resume" className="downloadBtn" target="blank">Download <i className="fa fa-download"></i></a>
                 </div>
             </div>
@@ -43,7 +43,7 @@ const Sliderpage = () => {
                 <div className='projectHolder'><Project/></div>
             </div>
             <div className='contactDiv rpcDiv' id='contactDiv'>
-                <div className='textANDcancel'>
+                <div className='textANDcancel gc'>
                     <h2 className='contactText'>Contact</h2>
                     <button className='closeButton' onClick={close}><i class="far fa-times-circle"></i></button>
                 </div>

@@ -43,7 +43,8 @@
 .wholePage {
   height: fit-content;
   width: fit-content;
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(./images/background.jpg);
+  /* background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(./images/background.jpg); */
+  background-color: white;
   background-position: center;
   background-size: cover;
 }
